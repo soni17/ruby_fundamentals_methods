@@ -5,3 +5,10 @@ while (entry==0)
   puts "Value entered is not a number. Please enter a number:"
   entry = gets.to_i
 end
+
+def convert_to_celcius(num)
+  return (num-32) * 5/9
+end
+
+converted = convert_to_celcius(entry)
+puts "#{entry} farenheit equals #{converted} celcius"
