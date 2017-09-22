@@ -7,7 +7,7 @@ while (entry==0)
 end
 
 def convert_to_celcius(num)
-  return (num-32) * 5/9
+  return (num-32.0) * 5/9.0
 end
 
 converted = convert_to_celcius(entry)
